@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology for Her</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7e6f0;
+            text-align: center;
+            color: #333;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff5c8d;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #ff5c8d;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #ff4073;
+        }
+        .message-box {
+            display: none;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .message-box p {
+            font-size: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>I'm Sorry</h1>
+        <p>
+            I know I’ve made mistakes, and I’ve been reflecting on everything that happened. I want to sincerely apologize for any pain I’ve caused. 
+            Please know that I care deeply about you, and I never meant to hurt you.
+        </p>
+        <button onclick="showMessage()">Click Here to Read My Apology</button>
+        
+        <div class="message-box" id="messageBox">
+            <p>
+                You mean the world to me, and I hope one day we can talk and heal together. 
+                I want you to know that I'm genuinely sorry, and I’ll do everything I can to make things right when you're ready. 
+                Please take all the time you need. ❤️
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('messageBox').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
